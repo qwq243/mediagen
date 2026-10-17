@@ -1,0 +1,11 @@
+{
+  "transport": "zcode-acp",
+  "provider": "d3480337-ebbe-49cd-881c-6c0c92c034f8",
+  "model": "deepseek-v4.1-flash",
+  "fileDelivery": "review",
+  "allowSubagents": false,
+  "allowWorkflows": false,
+  "allowBash": false,
+  "verified": "2026-10-14 single P02 image read, not full deck audit",
+  "failure_policy": "stop; retain pending review; no automatic retry or model switch"
+}

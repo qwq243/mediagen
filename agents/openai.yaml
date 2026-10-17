@@ -1,0 +1,4 @@
+interface:
+  display_name: "NewAPI ImageGen"
+  short_description: "Generate, edit, and batch reproducible image assets with proxy-resilient NewAPI transport."
+  default_prompt: "Use NewAPI ImageGen as the only NewAPI image skill. Route by channel: ordinary generate/edit/batch, awesome-gpt-image-2 style library, asset policies with native transparent PNG, the everyday Chinese-preset channel 学姐用的生图 (avatar/wallpaper/cover/card/sticker/poster via scripts/xuejie_gen.py), PPT lecture/dense/reconstruction, paper art (graphical abstract / mechanism schematic) whose content layer is the nature-figure skill, or generated video via the workstation sidecar (references/video-workflow.md + scripts/newapi_video.py; Seedance on 幻映/dola-pool, never NewAPI /v1/videos). For PPT, run ppt-preflight (research, outline, typography lock, P01 master) before batch generation."

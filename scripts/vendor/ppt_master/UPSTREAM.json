@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/hugohe3/ppt-master",
+  "tag": "v6.7.0",
+  "license": "MIT",
+  "archive_sha256": "119a167ee65e3285d3cd53e636f349139e0a15cd107c002d9384cc82f42441ea",
+  "adaptations": "Image-PPT adapter; native SVG production controls replaced. CSS, catalogs, UI controls and transition core retained."
+}

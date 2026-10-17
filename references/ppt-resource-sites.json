@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "catalog_policy": "Curated outbound discovery links, not a scraped mirror or an assurance of availability/reuse permission. Only explicit adapters expose public API results.",
+  "inspiration": {
+    "url": "https://www.aboutppt.com/#term-2-10",
+    "requested_by": "user",
+    "access_observation": "Initially slider-blocked; user completed verification. Subsequently inspected actual page and captured 220 name/URL entries from 11 categories, not the entire site.",
+    "adaptation": "Use AboutPPT as channel discovery, not a visual template. Visual design also compares Homer and Linkwarden public demos and local ppt-master/ui-ux-pro-max guidance; implementation is original."
+  },
+  "categories": [
+    {
+      "id": "navigation",
+      "name": "综合导航",
+      "hint": "先找方向，再找具体素材"
+    },
+    {
+      "id": "templates",
+      "name": "PPT 模板",
+      "hint": "借鉴整套叙事、页面结构和视觉语言"
+    },
+    {
+      "id": "inspiration",
+      "name": "设计灵感",
+      "hint": "看作品、排版、品牌与界面"
+    },
+    {
+      "id": "photos",
+      "name": "图片图库",
+      "hint": "照片、背景与公共素材"
+    },
+    {
+      "id": "icons",
+      "name": "图标插画",
+      "hint": "选择图标家族与一致的插画语言"
+    },
+    {
+      "id": "colors",
+      "name": "配色工具",
+      "hint": "选一套色卡，不逐页另起炉灶"
+    },
+    {
+      "id": "fonts",
+      "name": "字体字型",
+      "hint": "确认标题、正文、数字的角色字体"
+    }
+  ],
+  "sites": [
+    {
+      "id": "aboutppt",
+      "name": "AboutPPT",
+      "group": "navigation",
+      "category": "综合导航",
+      "url": "https://www.aboutppt.com/#term-2-10",
+      "description": "从你提供的导航出发，继续寻找合适的设计渠道。",
+      "monogram": "A",
+      "tone": "orange",
+      "featured": true
+    },
+    {
+      "id": "uisdc",
+      "name": "优设导航",
+      "group": "navigation",
+      "category": "综合导航",
+      "url": "https://hao.uisdc.com/",
+      "description": "设计工具、学习资源与灵感站点导航。",
+      "monogram": "优",
+      "tone": "orange"
+    },
+    {
+      "id": "carnival",
+      "name": "SlidesCarnival",
+      "group": "templates",
+      "category": "PPT 模板",
+      "url": "https://www.slidescarnival.com/",
+      "description": "按主题寻找整套演示模板，观察页面之间的节奏。",
+      "monogram": "SC",
+      "tone": "pink",
+      "featured": true
+    },
+    {
+      "id": "slidesgo",
+      "name": "Slidesgo",
+      "group": "templates",
+      "category": "PPT 模板",
+      "url": "https://slidesgo.com/",
+      "description": "教育、商务等主题模板，适合比较整套视觉方向。",
+      "monogram": "Sg",
+      "tone": "blue"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "group": "templates",
+      "category": "PPT 模板",
+      "url": "https://www.canva.com/templates/",
+      "description": "演示、海报与图文排版参考，也可用于本机制作交接。",
+      "monogram": "Ca",
+      "tone": "teal"
+    },
+    {
+      "id": "pptstore",
+      "name": "PPTSTORE",
+      "group": "templates",
+      "category": "PPT 模板",
+      "url": "https://www.pptstore.net/",
+      "description": "中文演示设计与模板，寻找更贴近汇报场景的表达。",
+      "monogram": "P",
+      "tone": "orange"
+    },
+    {
+      "id": "ypppt",
+      "name": "优品 PPT",
+      "group": "templates",
+      "category": "PPT 模板",
+      "url": "https://www.ypppt.com/",
+      "description": "中文模板、背景与图表素材入口。",
+      "monogram": "优",
+      "tone": "blue"
+    },
+    {
+      "id": "showeet",
+      "name": "Showeet",
+      "group": "templates",
+      "category": "PPT 模板",
+      "url": "https://www.showeet.com/",
+      "description": "图表、图示与演示版式，适合寻找信息关系的表达。",
+      "monogram": "Sh",
+      "tone": "green"
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "group": "inspiration",
+      "category": "设计灵感",
+      "url": "https://www.behance.net/",
+      "description": "查看完整设计项目，借鉴品牌语言和成套呈现方式。",
+      "monogram": "Bē",
+      "tone": "blue",
+      "featured": true
+    },
+    {
+      "id": "dribbble",
+      "name": "Dribbble",
+      "group": "inspiration",
+      "category": "设计灵感",
+      "url": "https://dribbble.com/",
+      "description": "界面、插画与视觉设计，寻找局部表达的新思路。",
+      "monogram": "D",
+      "tone": "pink"
+    },
+    {
+      "id": "zcool",
+      "name": "站酷",
+      "group": "inspiration",
+      "category": "设计灵感",
+      "url": "https://www.zcool.com.cn/",
+      "description": "中文创意作品与项目案例，适合寻找本土设计表达。",
+      "monogram": "Z",
+      "tone": "yellow"
+    },
+    {
+      "id": "huaban",
+      "name": "花瓣",
+      "group": "inspiration",
+      "category": "设计灵感",
+      "url": "https://huaban.com/",
+      "description": "收集排版、色彩与画面参考，再带回具体选中的页面。",
+      "monogram": "花",
+      "tone": "pink"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "group": "inspiration",
+      "category": "设计灵感",
+      "url": "https://www.pinterest.com/",
+      "description": "按视觉主题收集灵感，注意区分参考与最终素材。",
+      "monogram": "P",
+      "tone": "red"
+    },
+    {
+      "id": "awwwards",
+      "name": "Awwwards",
+      "group": "inspiration",
+      "category": "设计灵感",
+      "url": "https://www.awwwards.com/",
+      "description": "网站视觉、排版和交互案例，借鉴而非照搬网页结构。",
+      "monogram": "W.",
+      "tone": "ink"
+    },
+    {
+      "id": "gptimage",
+      "name": "GPT-Image2 图库",
+      "group": "inspiration",
+      "category": "生图参考",
+      "url": "https://gpt-image2.canghe.ai/",
+      "description": "观察生图效果与提示词思路，回传喜欢的具体案例。",
+      "monogram": "G2",
+      "tone": "green"
+    },
+    {
+      "id": "commons",
+      "name": "Wikimedia Commons",
+      "group": "photos",
+      "category": "图片图库",
+      "url": "https://commons.wikimedia.org/",
+      "description": "公共媒体资料库；支持在此页直接搜索与预览。",
+      "monogram": "W",
+      "tone": "blue",
+      "api": true,
+      "featured": true
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash",
+      "group": "photos",
+      "category": "图片图库",
+      "url": "https://unsplash.com/",
+      "description": "摄影图片与背景参考，选择后上传需要使用的原图。",
+      "monogram": "U",
+      "tone": "ink"
+    },
+    {
+      "id": "pexels",
+      "name": "Pexels",
+      "group": "photos",
+      "category": "图片图库",
+      "url": "https://www.pexels.com/",
+      "description": "照片与视频入口，适合场景图、环境图和背景。",
+      "monogram": "Px",
+      "tone": "green"
+    },
+    {
+      "id": "pixabay",
+      "name": "Pixabay",
+      "group": "photos",
+      "category": "图片图库",
+      "url": "https://pixabay.com/",
+      "description": "图片、插画与矢量素材，按具体用途挑选。",
+      "monogram": "pb",
+      "tone": "green"
+    },
+    {
+      "id": "svgrepo",
+      "name": "SVG Repo",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://www.svgrepo.com/",
+      "description": "矢量图标与集合，优先选同一套线宽与造型。",
+      "monogram": "SVG",
+      "tone": "orange"
+    },
+    {
+      "id": "iconfont",
+      "name": "iconfont",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://www.iconfont.cn/",
+      "description": "中文图标搜索与图标库，适合建立固定组件包。",
+      "monogram": "i",
+      "tone": "blue"
+    },
+    {
+      "id": "iconpark",
+      "name": "IconPark",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://iconpark.oceanengine.com/",
+      "description": "多种风格的图标体系，便于统一线条、颜色和尺寸。",
+      "monogram": "IP",
+      "tone": "blue"
+    },
+    {
+      "id": "flaticon",
+      "name": "Flaticon",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://www.flaticon.com/",
+      "description": "按图标包选择素材，减少跨页风格漂移。",
+      "monogram": "Fl",
+      "tone": "green"
+    },
+    {
+      "id": "undraw",
+      "name": "unDraw",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://undraw.co/illustrations",
+      "description": "简洁概念插画；有些含人物，需遵循当前人物政策。",
+      "monogram": "uD",
+      "tone": "purple"
+    },
+    {
+      "id": "storyset",
+      "name": "Storyset",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://storyset.com/",
+      "description": "按场景寻找成套插画，可比较不同画法。",
+      "monogram": "St",
+      "tone": "blue"
+    },
+    {
+      "id": "irasutoya",
+      "name": "いらすとや",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://www.irasutoya.com/",
+      "description": "日式插画与场景素材，适合轻松、教学类表达。",
+      "monogram": "い",
+      "tone": "pink"
+    },
+    {
+      "id": "freepik",
+      "name": "Freepik",
+      "group": "icons",
+      "category": "图标插画",
+      "url": "https://www.freepik.com/",
+      "description": "插画、背景与设计素材，选定具体版本后再导入。",
+      "monogram": "F",
+      "tone": "blue"
+    },
+    {
+      "id": "adobecolor",
+      "name": "Adobe Color",
+      "group": "colors",
+      "category": "配色工具",
+      "url": "https://color.adobe.com/",
+      "description": "探索色彩关系与主题，把选定色值带回设计确认。",
+      "monogram": "Ac",
+      "tone": "red"
+    },
+    {
+      "id": "coolors",
+      "name": "Coolors",
+      "group": "colors",
+      "category": "配色工具",
+      "url": "https://coolors.co/",
+      "description": "组合与比较色卡，确定主色、背景与强调色。",
+      "monogram": "Co",
+      "tone": "blue"
+    },
+    {
+      "id": "colorhunt",
+      "name": "Color Hunt",
+      "group": "colors",
+      "category": "配色工具",
+      "url": "https://colorhunt.co/",
+      "description": "浏览配色组合，快速收集喜欢的色彩方向。",
+      "monogram": "CH",
+      "tone": "pink"
+    },
+    {
+      "id": "fonts",
+      "name": "Google Fonts",
+      "group": "fonts",
+      "category": "字体字型",
+      "url": "https://fonts.google.com/",
+      "description": "比较字体样式与字重，确认标题、正文和数字角色。",
+      "monogram": "Gf",
+      "tone": "orange"
+    },
+    {
+      "id": "fontshare",
+      "name": "Fontshare",
+      "group": "fonts",
+      "category": "字体字型",
+      "url": "https://www.fontshare.com/",
+      "description": "拉丁字体与组合参考，适合英文标题和数字风格。",
+      "monogram": "Fs",
+      "tone": "ink"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "repository": "hugohe3/ppt-master",
+      "tag": "v6.7.0",
+      "archive_sha256": "119a167ee65e3285d3cd53e636f349139e0a15cd107c002d9384cc82f42441ea",
+      "research_only": false
+    },
+    {
+      "repository": "ningzimu/codex-ppt-skill",
+      "tag": "v0.6.0",
+      "archive_sha256": "0a3114c8087d188278ed538cbafe96a19ffdc5f508b5a9600db7aca109b8b101",
+      "research_only": true
+    },
+    {
+      "repository": "Anionex/banana-slides",
+      "tag": "v0.4.0",
+      "archive_sha256": "87c4543df3b849fbf62d3a39b8b45f649ea3ed63f1053869f2c66fc9e1522ca3",
+      "research_only": true
+    }
+  ],
+  "note": "Upstream archives and local backups are not included."
+}

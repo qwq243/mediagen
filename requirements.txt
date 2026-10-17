@@ -1,0 +1,10 @@
+# Runtime and optional image/PPT processing integrations
+Pillow
+python-pptx
+Flask
+jsonschema
+requests
+lxml
+numpy
+scikit-image
+PySocks

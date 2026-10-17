@@ -1,0 +1,25 @@
+/* Image-PPT additions; upstream PPT Master styles remain authoritative. */
+.mg-section h2 { margin-bottom: 12px; }
+.mg-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
+.mg-field { display: flex; flex-direction: column; gap: 7px; margin: 12px 0; font-size: 13px; }
+.mg-field input,.mg-field select,.mg-field textarea {
+    width: 100%; box-sizing: border-box; border: 1px solid #d8dfeb; border-radius: 7px;
+    padding: 9px 11px; background: white; color: #20304b; font: inherit;
+}
+.mg-field textarea { resize: vertical; min-height: 80px; }
+.mg-page { border-top: 1px solid #e1e6ef; padding: 15px 0; }
+.mg-page summary { cursor: pointer; font-weight: 600; }
+.mg-reference { padding: 14px; margin: 12px 0; border: 1px solid #dce3ee; border-radius: 9px; }
+.mg-thumbnail { max-width: 260px; max-height: 150px; display: block; margin-top: 10px; object-fit: contain; }
+.mg-slide { display: block; max-width: 100%; max-height: 480px; margin: 15px 0; }
+.mg-link { display: inline-block; margin: 8px 18px 8px 0; color: #345aa2; }
+.mg-button { border: 1px solid #c9d5e9; border-radius: 6px; background: #f4f7fc; padding: 9px 14px; margin: 8px 8px 8px 0; cursor: pointer; }
+.mg-button:disabled { opacity: .5; cursor: default; }
+.mg-motion { background: #eef3fb; color: #21477a; padding: 24px; border-radius: 9px; margin: 12px 0; }
+.mg-status { color: #345aa2; white-space: pre-wrap; }
+.mg-audits { max-height: 220px; overflow: auto; font-size: 12px; }
+@media(max-width:720px) { .mg-grid { grid-template-columns: 1fr; } }
+.mg-display-sample { font-size: 2rem; margin: 10px 0; line-height: 1.4; color: #234ea5; }
+.mg-outline { padding-left: 22px; font-size: 13px; line-height: 1.65; color: #253653; }
+.mg-outline li { margin: 9px 0; }
+#topbar-preview .mg-section .section-title { color: #172B4D; }

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Mediagen · PPT 调度台</title><link rel="stylesheet" href="/workbench/style.css"><link rel="stylesheet" href="/workbench/directory-theme.css"><link rel="stylesheet" href="/workbench/workspace.css"><link rel="stylesheet" href="/workbench/brief.css"><link rel="stylesheet" href="/workbench/chrome.css"><link rel="stylesheet" href="/workbench/material-viewer.css"><link rel="stylesheet" href="/workbench/page-studio.css"><link rel="stylesheet" href="/workbench/knowledge.css"><link rel="stylesheet" href="/workbench/workflow-guide.css"></head>
+<body>
+<aside class="rail"><div class="brand-row"><a class="brand" href="#stage1"><span class="mark">m<span>·</span></span><span>mediagen<small>PPT 制作调度台</small></span></a><button class="nav-toggle" data-action="toggle-nav" aria-label="展开导航" aria-expanded="false"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#menu"></use></svg></button></div>
+<div class="project-card"><div class="rail-label">当前项目</div><h2 id="project">载入中</h2></div>
+<div class="rail-label section-label">制作流程</div>
+<nav aria-label="制作阶段">
+<a href="#workflow"><b>↗</b> 流程总览</a>
+<a href="#stage1"><b>01</b> 沟通与参考 <i id="s-stage1"></i></a>
+<a href="#stage2"><b>02</b> 完整方案 <i id="s-stage2"></i></a>
+<a href="#samples"><b>03</b> 逐页创作 <i id="s-samples"></i></a>
+<a href="#deck"><b>04</b> 整套统稿</a>
+<a href="#delivery"><b>05</b> 讲稿与交付</a>
+<a href="#feedback"><b>06</b> 使用反馈</a>
+</nav><div class="rail-label section-label">素材与参考</div><nav>
+<a href="#assets"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#library"></use></svg> 本机素材库</a><a href="#sites"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#compass"></use></svg> 灵感导航</a>
+<a href="#cart"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#cart"></use></svg> 素材购物车 <i id="cart-count">0</i></a>
+<a href="#favorites"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#bookmark"></use></svg> 精选收藏</a>
+<a href="#knowledge"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#library"></use></svg> 设计知识库</a>
+</nav><div class="rail-label section-label">设计与规范</div><nav aria-label="设计与规范">
+<a href="#design-spec"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#presentation"></use></svg> 设计规格与验收</a>
+<a href="#components"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#panels"></use></svg> 全局设计与组件</a><a href="#coding"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#codes"></use></svg> 参考编码</a>
+</nav><button class="rail-history" data-action="history"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#history"></use></svg>历史版本与回退</button>
+<footer><span class="safe-dot"></span> 选择不代表确认或付费授权<br><span id="revision"></span></footer></aside>
+<main><div id="workbench-chrome" class="workbench-chrome"><div id="chrome-surface" class="chrome-surface"><header class="topline"><div class="row chrome-context"><button class="sidebar-switch" data-action="collapse-nav" aria-label="收起左侧导航" aria-expanded="true"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#panel-left"></use></svg></button><div class="breadcrumb"><a href="#workflow">调度台</a> <span>/</span> <strong id="view-name">沟通与参考</strong></div><button id="alignment-status" class="alignment-status" type="button" data-action="pending" aria-haspopup="dialog" hidden></button></div><div class="row top-actions"><button data-action="present-project"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#presentation"></use></svg><span>整套预览</span></button><a href="#cart" class="cart-shortcut">素材购物车 <span id="top-cart-count">0</span></a><button data-action="reload" aria-label="刷新当前方案" title="刷新当前方案"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#refresh"></use></svg></button><button id="collapse-chrome" aria-label="收起顶栏" title="收起顶栏" aria-controls="chrome-surface" aria-expanded="true"><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#chevron-up"></use></svg></button></div></header>
+</div></div><nav id="progress" class="workflow-progress" aria-label="整体制作进度"></nav><button id="reveal-chrome" class="chrome-reveal" aria-label="展开顶栏" aria-controls="chrome-surface" aria-expanded="false" hidden><span><svg class="ui-icon" aria-hidden="true"><use href="/workbench/icons.svg#chevron-down"></use></svg>展开顶栏</span></button><section id="view" aria-live="polite"><p class="route-loading" role="status">正在读取当前项目；确认与审核状态以校验结果为准…</p></section></main>
+<div id="toast" role="status"></div>
+<dialog id="modal"><div class="dialog-top"><h2 id="modal-title"></h2><button data-action="close" aria-label="关闭">×</button></div><div id="modal-body"></div></dialog>
+<input id="upload" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+<script src="/workbench/form-autosave.js"></script><script src="/workbench/workbench-chrome.js"></script><script src="/workbench/material-viewer.js"></script><script src="/workbench/storyboard.js"></script><script src="/workbench/proposal-settings.js"></script><script src="/workbench/page-studio.js"></script><script src="/workbench/workflow-guide.js"></script><script src="/workbench/knowledge.js"></script><script src="/workbench/app.js"></script><script src="/workbench/image-tools.js"></script><script src="/workbench/design-tools.js"></script></body></html>

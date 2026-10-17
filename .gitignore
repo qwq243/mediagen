@@ -1,0 +1,46 @@
+# Local configuration and credentials
+/config.json
+.env
+.env.*
+!.env.example
+*credentials*.json
+*secrets*.json
+*.pem
+*.key
+# Runtime state and private material
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+*.sqlite*
+*.db
+*.db-*
+*.log
+/backups/
+/library/
+/sources/
+/validation/
+/output/
+/outputs/
+/jobs/
+# PPT resources are intentionally not published
+*.ppt
+*.pptx
+*.pptm
+*.pot
+*.potx
+*.potm
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.zip
+*.tar.gz
+/scripts/vendor/ppt_master/static/style_previews/
+.DS_Store
+Thumbs.db
